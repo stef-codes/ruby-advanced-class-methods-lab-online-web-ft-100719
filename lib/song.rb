@@ -53,7 +53,7 @@ class Song
     
       # "Taylor Swift - Blank Space.mp3"
 
-         filename = filename.split(/\s*[-,.]\s*/)
+         filename = filename.split(/\s*[,]\s*/)
          artist_name = filename[0]
          name = filename[1]
       
